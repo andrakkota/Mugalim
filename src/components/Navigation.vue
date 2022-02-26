@@ -41,7 +41,7 @@ export default {
     };
   },
   created() {
-    window.addEventListener('r/ze', this.checkScreen);
+    window.addEventListener('resize', this.checkScreen);
     this.checkScreen();
   },
 
